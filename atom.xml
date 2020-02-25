@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stszl.github.io/"/>
-  <updated>2020-01-19T06:22:41.334Z</updated>
+  <updated>2020-02-25T06:37:52.837Z</updated>
   <id>https://stszl.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://stszl.github.io/2020/01/19/hello-world/"/>
-    <id>https://stszl.github.io/2020/01/19/hello-world/</id>
-    <published>2020-01-19T06:22:41.334Z</published>
-    <updated>2020-01-19T06:22:41.334Z</updated>
+    <title>移动端常见布局</title>
+    <link href="https://stszl.github.io/2019/05/08/yi-dong-duan-chang-jian-bu-ju/"/>
+    <id>https://stszl.github.io/2019/05/08/yi-dong-duan-chang-jian-bu-ju/</id>
+    <published>2019-05-08T01:50:03.000Z</published>
+    <updated>2020-02-25T06:37:52.837Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,48 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;h1 id=&quot;一、流式布局&quot;&gt;&lt;a href=&quot;#一、流式布局&quot; class=&quot;headerlink&quot; title=&quot;一、流式布局&quot;&gt;&lt;/a&gt;一、流式布局&lt;/h1&gt;&lt;h2 id=&quot;1-1-移动端基础&quot;&gt;&lt;a href=&quot;#1-1-移动端基础&quot;
         
       
     
     </summary>
     
     
+      <category term="计算机" scheme="https://stszl.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="HTML5" scheme="https://stszl.github.io/tags/HTML5/"/>
+    
+      <category term="CSS3" scheme="https://stszl.github.io/tags/CSS3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html5css3</title>
+    <link href="https://stszl.github.io/2019/05/01/html5css3/"/>
+    <id>https://stszl.github.io/2019/05/01/html5css3/</id>
+    <published>2019-05-01T09:41:54.000Z</published>
+    <updated>2020-02-25T06:40:35.043Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;HTML5CSS3&quot;&gt;&lt;a href=&quot;#HTML5CSS3&quot; class=&quot;headerlink&quot; title=&quot;HTML5CSS3&quot;&gt;&lt;/a&gt;HTML5CSS3&lt;/h1&gt;&lt;h2 id=&quot;一、什么是-HTML5&quot;&gt;&lt;a href=&quot;#一、什么是-HTML5&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="计算机" scheme="https://stszl.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="HTML5" scheme="https://stszl.github.io/tags/HTML5/"/>
+    
+      <category term="CSS3" scheme="https://stszl.github.io/tags/CSS3/"/>
     
   </entry>
   
