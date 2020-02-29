@@ -5,8 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="移动端常见布局, 科技,读书,菜谱,旅游,宠物">
-    <meta name="description" content="一、流式布局1.1 移动端基础1.1.1 浏览器现状 PC端常见浏览器：360浏览器、谷歌浏览器、火狐浏览器、QQ浏览器、百度浏览器、搜狗浏览器、IE浏览器。
-移动端常见浏览器：UC浏览器，QQ浏览器，欧朋浏览器，百度手机浏览器，360安全">
+    <meta name="description" content="为了适应市场及用户的转变，越来越多的服务从PC端转向移动端，移动端页面布局也就成为前端开发工程师必须掌握的技能。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -193,7 +192,7 @@
         <div class="logo-name">小沈曰</div>
         <div class="logo-desc">
             
-            科技,读书,菜谱,旅游,宠物
+            计算机,读书,菜谱,旅游,宠物
             
         </div>
     </div>
@@ -409,6 +408,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -1442,31 +1454,29 @@ width: (@width + 5) * 2;
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/05/08/yi-dong-duan-chang-jian-bu-ju/">
+                <a href="/2019/05/15/zheng-ze-biao-da-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="移动端常见布局">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="正则表达式">
                         
-                        <span class="card-title">移动端常见布局</span>
+                        <span class="card-title">正则表达式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一、流式布局1.1 移动端基础1.1.1 浏览器现状 PC端常见浏览器：360浏览器、谷歌浏览器、火狐浏览器、QQ浏览器、百度浏览器、搜狗浏览器、IE浏览器。
-移动端常见浏览器：UC浏览器，QQ浏览器，欧朋浏览器，百度手机浏览器，360安全
+                            正则表达式描述了一种字符串匹配的模式，可以用来检查一个串是否含有某种子串、将匹配的子串替换或者从某个串中取出符合某个条件的子串等。
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-05-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-05-15
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1479,16 +1489,11 @@ width: (@width + 5) * 2;
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/HTML5/">
-                        <span class="chip bg-color">HTML5</span>
-                    </a>
-                    
-                    <a href="/tags/CSS3/">
-                        <span class="chip bg-color">CSS3</span>
+                    <a href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/">
+                        <span class="chip bg-color">正则表达式</span>
                     </a>
                     
                 </div>
@@ -1506,18 +1511,15 @@ width: (@width + 5) * 2;
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="html5css3">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="HTML5CSS3">
                         
-                        <span class="card-title">html5css3</span>
+                        <span class="card-title">HTML5CSS3</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HTML5CSS3一、什么是 HTML51. HTML5 的概念与定义
-定义：HTML5 定义了 HTML 标准的最新版本，是对 HTML 的第五次重大修改，号称下一代的 HTML 
-两个概念：
-是一个新版本的 HTML 语言，定义了新的标
+                            HTML5将Web带入一个成熟的应用平台，在这个平台上，视频、音频、图像、动画以及与设备的交互都进行了规范。
                         
                     </div>
                     <div class="publish-info">
@@ -1693,7 +1695,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="955411580"
                    fixed='true'
                    autoplay='false'
                    theme:='#42b983'
@@ -1721,7 +1723,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">11.3k</span>&nbsp;字
+                class="white-color">25.4k</span>&nbsp;字
             
             
             
